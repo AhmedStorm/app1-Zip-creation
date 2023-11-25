@@ -3,7 +3,6 @@ from zip_creator import *
 file_txt = sg.Text("Choose Files to Compress")
 files_inp = sg.InputText()
 files_btn = sg.FilesBrowse("Browse Files")
-
 fld_txt = sg.Text("Choose Output Directory")
 fld_inp = sg.InputText()
 fld_btn = sg.FolderBrowse("Browse Folder")
